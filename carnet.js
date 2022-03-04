@@ -1,4 +1,4 @@
-/** Stockage = localStorage;
+ Stockage = localStorage;
 //Test pour le local storage
 localStorage.setItem('Justin', 'Exemple de keys');
 
@@ -7,12 +7,12 @@ localStorage.setItem('Vallée', 'Exemple de keys');
 localStorage.setItem('Ibrahima', 'Exemple de keys');
 
 
-const crypto = require('crypto') // appel de la bibliothèque crypto intégré à nodejs qui permet de générer des Clefs
 
-**/
 
-//Création de clefs
+/**  Création de clefs
 import { isCryptoKey } from 'util/types';
+
+const crypto = require('crypto') // appel de la bibliothèque crypto intégré à nodejs qui permet de générer des Clefs
 
 const crypto = require('crypto')
 const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
@@ -22,7 +22,7 @@ const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
 })
 
 console.log('Private key : ' + privateKey);
-console.log('\nPublic key : ' + publicKey);
+console.log('\nPublic key : ' + publicKey); */
 
 /*** Pas encore au point
 const fs = require('fs');
