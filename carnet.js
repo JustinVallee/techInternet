@@ -24,6 +24,7 @@ const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
 console.log('Private key : ' + privateKey);
 console.log('\nPublic key : ' + publicKey);
 
+/*** Pas encore au point
 const fs = require('fs');
 fs.writeFile('privateKey.pem', privateKey, function(err) {
   if (err) throw err
@@ -31,7 +32,7 @@ fs.writeFile('privateKey.pem', privateKey, function(err) {
 
 fs.writeFile('publicKey.pem', publicKey, function(err) {
   if (err) throw err
-})
+}) */
 
 /** Utilisation du Js pour modifier la page
  * 
