@@ -1,11 +1,40 @@
- Stockage = localStorage;
+
+/*function addName() {
+//demande à l'utilisateur d'entrer un nom
+}
+
+function getName() {
+//
+}
+
+function createItem() {
+  localStorage.setItem(addName(), Date.now());
+}
+
+function readItem() {
+  var x = localStorage.getItem(getName());
+  document.getElementById("demo").innerHTML = x;
+}
+
+<p id="demo"></p>
+
+<button onclick="readItem()">Get the item value</button>
+
+<button onclick="createItem()">Set local storage item</button>
+*/
+
+
+
+
 //Test pour le local storage
+/*
 localStorage.setItem('Justin', 'Exemple de keys');
 
 localStorage.setItem('Yamine', 'Exemple de keys');
 localStorage.setItem('Vallée', 'Exemple de keys');
 localStorage.setItem('Ibrahima', 'Exemple de keys');
 
+*/
 
 
 
