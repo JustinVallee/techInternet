@@ -107,7 +107,7 @@
    <div class="pb-4 mb-3 border-bottom"> 
     <h2 class="h4">Ajouter ou modifier un contact</h2>
     <fieldset>
-        <input id="inpKey" type="text" placeholder="Entrer le nom">
+        <input id="inpKey" type="text" placeholder="Entrer le nom - (Courriel)">
         <input id="inpValue" type="text" placeholder="Entrer l'addresse">
         <button class="btn btn-dark" type="button" id="btnInsert">Soumettre</button>
         
@@ -140,9 +140,6 @@ const mainCarnet = document.getElementById("mainCarnet");
 btnInsert.onclick = function() {
   const key = inpKey.value;
   const value = inpValue.value;
-
-  console.log(key);
-  console.log(value);
 
   if(key && value){
   localStorage.setItem(key, value);

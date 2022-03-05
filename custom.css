@@ -215,3 +215,18 @@ html {
 button.addresses[aria-expanded="true"]{
   background-color: #e9ecef;
 }
+
+.inb-active:focus{
+  z-index: 2;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+
+}
+.env-active:focus{
+  z-index: 2;
+  color: black;
+  background-color: #f3f3f3;
+  border-color: #0d6efd;
+
+}
