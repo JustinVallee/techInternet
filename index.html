@@ -24,7 +24,12 @@
   <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <input class="form-control form-control-dark w-100" type="text" placeholder="Recherche" aria-label="Recherche">
+
+  <form id="Form" method="get" action="" role="search" aria-haspopup="listbox" aria-owns="downshift-22-menu" aria-expanded="false" class="form-control-dark w-100" >
+    <input class="form-control form-control-dark w-80" type="search" placeholder="Search" aria-label="Search" name="q"  formtarget="messages_envoyes" id="recherche" formmethod="get">    
+  </form> 
+  <button formaction="Form" onclick="getValeur()" type="search" class="btn btn-primary mx-2">Recherche</button>
+  
   <div class="navbar-nav">
     <div class="nav-item text-nowrap">
       <a class="nav-link px-3" style="color:#212529;">Déconnexion</a>

@@ -11,3 +11,16 @@ const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
 
 console.log('Private key : ' + privateKey);
 console.log('\nPublic key : ' + publicKey);
+
+
+function getValeur() {
+  //Recupérer le contenue de la recherche
+  var searchValue = document.getElementById('recherche').value;
+  if (localStorage.getItem(searchValue)) {
+    var url = "http://google.com"+searchValue;    // Si la recherche à une correspondance dans le carnet d'adresse
+    window.location = url; // Chargez la page du carnet d'adresse
+    //prompt('Boosso', 'tutu')
+
+  }
+
+  }

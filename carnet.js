@@ -1,25 +1,37 @@
-var contact1 = { name:"azeerty@uqo.com", adresse: "" };
 
-localStorage.setItem(identifiant.courriel, 'Valeur de ');
-localStorage.setItem('Contact1-name', 'Valeur de la clef');
-localStorage.setItem('Contact2-name', 'Valeur de la clef');
-localStorage.setItem('Contact3-name', 'Valeur de la clef');
-localStorage.setItem('Contact4-name', 'Valeur de la clef');
-localStorage.setItem('Contact5-name', 'Valeur de la clef');
-localStorage.setItem('Contact6-name', 'Valeur de la clef');
-localStorage.setItem('Contact7-name', 'Valeur de la clef');
-localStorage.setItem('Contact8-name', 'Valeur de la clef');
 
-/* Générateur de message 
-let p1 = document.getElementById('p1');
-let p2 = document.getElementById('p2');
-let newP = document.createElement('p');
-let htmlContent = '<strong> et du texte important</strong>';
 
-newP.textContent = 'Paragraphe créé et inséré grâce au JavaScript';
-*/
+localStorage.setItem('Wojciech', 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQK<br>BgQC8BrY71Okr7y2KWHLSeEflpFsmLNInpnFlK<br>wamGRZOIBW1nZriY/wpoTdZt8BlsRGxLKoa64<br>qQtcoT/OA3gbs6o9ykv1wKdXJbEKzysaWZsIHD<br>H+zdfo4HR6U8wXrVSJyXjD9iY8vJF0y4q04oUp2v<br>hFF6v2MuGHU8BWtFHMsQZwIDAQAB');
+localStorage.setItem('Fraczak', 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKB<br>gQCgrsvcanLD3sErAIlN19Gc9zETkqyZko8gXa<br>bEgtMcBu9gOzQ6HVGzs3jZUTpHzjaqsMbmC9K<br>wzH9yVCEwrQsH0UVNUMovDrRtEMMQsUPqokOpw<br>iQQhzOXubR36saBIhoYhzk3fSRRrw+U3Ywhc+2b5<br>FC5rUx06a5krskq3KzXQIDAQAB');
+localStorage.setItem('Marie', 'MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBiAKBg<br>HsofgXtAYDr9OKVk4dy8W98RZpi9akYm98Gilva<br>A0ml60sG/PHoky/da4K>tBcWl3Kp/+vDEmeYst<br>7E8wqcK2ofoNRwh/5G8QOp6X6JVirhk1o0+dS<br>lHM882BOPaHLM3NmrwhzbxsAPTdgaMFk8TyTmvsO<br>8XixrUepdzucJWyiHzAgMBAAE=');
+localStorage.setItem('Pierre', 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKB<br>gQCHVicw9e8a+kKkdFI4NIfxjGw51rTyhpPQPFp<br>2NByhXTkpfNDoenonEI87IEMXGTo4pJ5xGYs+V<br>F2RgiE/5pDvXxmgjM436DYighn5et70BEyXB1<br>4qnwnN4LK1KpKV1uof0+TbIDY1Cv2xwhWLoHdZ6z<br>gyFzWC++4TZ+LVoL3zPwIDAQAB');
+localStorage.setItem('Sebastien', 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AM<br>IIBCgKCAQEAk8D4522D1z2OMPhaoNxy8PeVFZ2<br>NR0X6enzWk7TJDoa+4ZMgBLArTWbrSkJBy5n97<br>empDpLY6K9dIlVXLMhGrrUD5P+KX02THChTX5+<br>j91ebBmIbuB09bKuaBY5H/U3ZUVKGCSPlPNOSbUH<br>0PT1SzWC++4TZ+LVoL3zPwIDAQ');
+localStorage.setItem('Christophe', 'MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBi<br>AKBgHqx3b0t7QnOsJrLpL6Ggzt9g7E+WbDZx1<br>+4duXS6e/BPYYX0/MsVjoDUudOto8A/qgQLkJ<br>nLmpnV2+yjTTsSH/79XlFX/X7KGkyEtOWkDc19b<br>J8wI58hLdIuom9+qk4LQYO84XoW1G06Z7TM4o/5P<br>p6koLVHh+PLEY4bx33Djt/AgMBAAE=');
+localStorage.setItem('Alexander', 'MIGeMA0GCSqGSIb3DQEBAQUAA4GMADCBi<br>AKBgHH6AO3HASDVMkaYjH64YajFJLCFJ1W3ysz<br>4PHYnS4tGRjMuFZWIyG3/D8hwizZpcY61zD4A7<br>3NwK8p5cM3Y45MySW6BHxEJW00Q8FMSFWqWjO<br>cbba2wspGsN6W0hENZp/L7P4PglxhBA05AcGDxnTh<br>Ju4TGbyXNfdFRAm1Q5EZdAgMBAAE=');
+localStorage.setItem('Justin', 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBi<br>QKBgQDCLBfB8t6cnZpAt3G4TeT+GJpdm/D6Veiim<br>Vlqz2FuRnuxv8P+s7WiLqJ7LtiyZxTigTY7iLrD<br>GqpznJSgk4VZfP/IcrqnH68O2IzhHef5QaRD<br>y6TevN+IiPXeisZ3BIOnA+D1vjyGbLnbXaK95TGE2E<br>Yh8/XHNXakT4sUDcSiZwIDAQAB');
+localStorage.setItem('Yamine', 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBi<br>QKBgQDRGIZtes18sJfDUvbn9qtQhTcJKRP01G5T<br>mcwX2rwUiIAKchz+LBPtir6lIe8A9yLWXoAw9DKB<br>TY5YwaiZGusWSU1LN71N877WJQ2PApLcD8Ml<br>ZCZM/BoA00tTM/a9MiimhSGsBwl9he+UnSrXEqn02<br>/Cqcjckl2WpzBchFqPOUQIDAQAB');
 
-//Ajoute un paragraphe après p1
+// Code pour la barre de recherche
+
+function getValeur() {
+  //Recupérer le contenue de la recherche
+  var searchValue = document.getElementById('recherche').value;
+
+  // Si la recherche à une correspondance dans le carnet d'adresse : Switcher
+  if (localStorage.getItem(searchValue)) {
+    //alert("Vous serez rediriger vers le contact : <" + searchValue+ "> dans le carnet d'adresse");
+    window.location = 'carnetdaddresses.html#'+ searchValue; // Chargez la page du carnet d'adresse
+    //prompt('Boosso', 'tutu')
+  
+    
+  } 
+
+
+}
+
+
+
+//Ajoute un paragraphe pour chaque message (inbox et messages envoyés)
 function P1(){
   if (lsOutput){
     lsOutput.innerHTML = "";

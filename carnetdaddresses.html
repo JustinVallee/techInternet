@@ -24,7 +24,12 @@
   <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <input class="form-control form-control-dark w-100" type="text" placeholder="Recherche" aria-label="Recherche">
+
+  <form id="Form" method="get" action="" role="search" aria-haspopup="listbox" aria-owns="downshift-22-menu" aria-expanded="false" class="form-control-dark w-100" >
+    <input class="form-control form-control-dark w-80" type="search" placeholder="Search" aria-label="Search" name="q"  formtarget="messages_envoyes" id="recherche" formmethod="get">    
+  </form> 
+  <button formaction="Form" onclick="getValeur();" type="search" class="btn btn-primary mx-2">Recherche</button>
+  
   <div class="navbar-nav">
     <div class="nav-item text-nowrap">
       <a class="nav-link px-3" style="color:#212529;">Déconnexion</a>
@@ -161,7 +166,7 @@ for(let i = 0; i < localStorage.length; i++){
 
   carnet.innerHTML += `<li><a onclick="addr(${is})" class="link-dark rounded">${key}</a></li>`;
 
-  mainCarnet.innerHTML +=`<a onclick="addr(${is})" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+  mainCarnet.innerHTML +=`<a id="${key}" onclick="addr(${is})" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
               <div class="d-flex w-100 align-items-center justify-content-between">
                 <strong class="mb-1">${key}</strong>
                 <button title="Supprimer" class="btn btn-sm btn-outline-danger" type="button" id="btnRemove" onclick="remove(${is})"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
@@ -170,8 +175,31 @@ for(let i = 0; i < localStorage.length; i++){
               </div>
               <div class="mb-1 small">${value}</div>
             </a>`;
-            
+                
 }
+
+
+window.onload = function() {
+ 
+var baseUrl = (window.location).href; // You can also use document.URL
+var koopId = baseUrl.substring(baseUrl.lastIndexOf('html') + 5);
+
+if(localStorage.getItem(koopId)){
+
+var baseUrl2 = (window.location).href; // You can also use document.URL
+var koopId2 = baseUrl.substring(baseUrl.lastIndexOf('html') + 5);
+
+//alert(koopId2);
+
+var element = document.getElementById(koopId2);
+
+element.style.backgroundColor = 'yellow';
+
+}
+};
+
+
+
 
 function remove(is) {
 
@@ -193,7 +221,6 @@ function addr(is){
 
 }
      
-
 
 </script>
   <!-- JavaScript Bundle with Popper -->
