@@ -2,10 +2,10 @@
 Réalisé par Justin Vallée et Yamine Ibrahima
             valj27@uqo.ca  -  ibry01@uqo.ca
             
-Voici la Partie I du projet de messagerie Web pour le cour INF4533
+Voici la Partie I du projet de messagerie Web pour le cours INF4533
 
 Fonctionnalité de l'interface :
-  - Une page "boîte de reception" : Pour les messages reçus
+  - Une page +"boîte de reception"+ : Pour les messages reçus
           On peut visualiser le contenu d'un message, en cliquant sur ce dernier.
           
   - Une page "Messages envoyés" : Pour les messages envoyés
