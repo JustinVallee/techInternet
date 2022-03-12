@@ -5,7 +5,6 @@ Réalisé par Justin Vallée et Yamine Ibrahima
 Voici la Partie I du projet de messagerie Web pour le cour INF4533
 
 Fonctionnalité de l'interface :
-
   - Une page "boîte de reception" : Pour les messages reçus
           On peut visualiser le contenu d'un message, en cliquant sur ce dernier.
           
@@ -28,8 +27,13 @@ Fonctionnalité de l'interface :
   - Un dropdown "Contact" : permettant un accès rapide à la liste des contacts
 
 
-
-
-
+Inventaire des fichiers :
+  - 'index.html' : code de la page d'acceuil ("boite de reception")
+  - 'messages_envoyes.html' : code de la page "Messages envoyés"
+  - 'nouveauMessage.html' : code de la page "Nouveau Message"
+  - 'carnetdaddresses.html' : code de la page "Carnet d'adresse"
+  - 'custom.css' : code CSS de toute l'interface
+  - 'carnet.js' : code JavaScript de l'interface
+           
 
 Remis à Fraczak Wojciech 
