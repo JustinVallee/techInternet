@@ -5,7 +5,7 @@ Réalisé par Justin Vallée et Yamine Ibrahima
 Voici la Partie I du projet de messagerie Web pour le cours INF4533
 
 Fonctionnalité de l'interface :
-  - Une page +"boîte de reception"+ : Pour les messages reçus
+  - Une page +"boîte de reception" : Pour les messages reçus
           On peut visualiser le contenu d'un message, en cliquant sur ce dernier.
           
   - Une page "Messages envoyés" : Pour les messages envoyés
